@@ -1,0 +1,607 @@
+.banner4{
+    height: 60vh;
+
+    background:
+       
+        url("../images/brt.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    padding: 0 8%;
+}
+
+.banner-4 h1{
+    font-weight: 100px;
+    margin-bottom: 15px;
+    color: white;
+    justify-content: flex-end;
+}
+.banner-4 p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+.legacy-section {
+    background: #f5f9ff;
+    padding: 80px 10%;
+}
+
+.legacy-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+/* Left Side */
+.legacy-intro {
+    flex: 1;
+    min-width: 320px;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+/* Statistics */
+.stats-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    min-width: 120px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.stat-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0077cc;
+}
+
+.stat-label {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+/* Right Side */
+.legacy-timeline {
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.timeline-card {
+    background: #ffffff;
+    padding: 25px;
+    border-left: 5px solid #0077cc;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.card-title {
+    color: #003366;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.card-text {
+    color: #555;
+    line-height: 1.7;
+}
+
+
+.purpose-section{
+    background-color: #1a365d;
+    color: #fff;
+    padding: 80px 10%;
+    height: 70%;
+}
+
+.purpose-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.purpose-content{
+    flex: 1;
+    min-width: 320px;
+}
+
+.section-subtitle{
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #bcd4f6;
+    margin-bottom: 20px;
+}
+
+.purpose-title{
+    font-size: 34px;
+    
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.vision-box{
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.vision-icon{
+    width: 45px;
+    height: 45px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.vision-icon svg{
+    color: #fff;
+}
+
+.vision-text h3{
+    text-transform: uppercase;
+    font-size: 8px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.vision-text p{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #dbeafe;
+}
+
+.purpose-image{
+    flex: 1;
+    min-width: 320px;
+}
+
+.purpose-image img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 16px;
+    display: block;
+}
+
+
+
+
+.about-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.values-section{
+    text-align: center;
+    padding: 70px 8%;
+}
+
+.values-title{
+    color: #001f4d;
+    margin-bottom: 10px;
+}
+
+.values-subtitle{
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.values-grid{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.value-card{
+    width: 300px;
+    text-align: center;
+}
+
+.value-card h3{
+    color: #001f4d;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.value-card p{
+    color: #555;
+    line-height: 1.7;
+}
+
+
+.leadership-section{
+    margin-top: 60px;
+}
+
+.leadership-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.leadership-label{
+    color: #0f3d7a;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.leadership-title{
+    font-size: 2.2rem;
+    color: #222;
+    max-width: 650px;
+}
+
+.view-all-link{
+    text-decoration: none;
+    color: #0f3d7a;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.view-all-link:hover{
+    color: #1b66c9;
+}
+
+
+.team-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.member-card{
+    position: relative;
+    height: 280px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+.member-card-1{
+    background-image: url("/images/ladie.jpg");
+}
+
+.member-card-2{
+    background-image: url("/images/black.jpg");
+}
+
+.member-card-3{
+    background-image: url("/images/doctor\ michel.jpg");
+}
+
+.member-card-4{
+    background-image: url("/images/doctors5.jpg");
+}
+
+.member-card::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,.8), rgba(0,0,0,.15));
+}
+
+.member-info{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    z-index: 2;
+}
+
+.member-name{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.member-role{
+    color: #ddd;
+    font-size: .95rem;
+}
+
+.member-card:hover{
+    transform: translateY(-8px);
+    transition: .3s ease;
+}
+
+
+
+.text{
+    text-align: center;
+    margin-top: 20px;
+}
+.text-container2{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+.text h2{
+    color: var(--primary-color);
+}
+
+
+/* Tablets */
+@media (max-width: 992px){
+
+    .banner4{
+        height:50vh;
+        padding:0 5%;
+    }
+
+    .banner-4 h1{
+        font-size:40px;
+    }
+
+    .banner-4 p{
+        font-size:18px;
+    }
+
+
+    .legacy-container{
+        flex-direction:column;
+        gap:40px;
+    }
+
+
+    .purpose-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+
+    .purpose-title{
+        font-size:28px;
+    }
+
+
+    .purpose-image img{
+        height:380px;
+    }
+
+
+    .leadership-header{
+        flex-direction:column;
+        text-align:center;
+    }
+
+
+    .leadership-title{
+        max-width:100%;
+    }
+
+}
+
+
+/* Mobile Phones */
+@media (max-width:600px){
+
+    .banner4{
+        height:60vh;
+        padding:20px;
+    }
+
+
+    .banner-4 h1{
+        font-size:30px;
+    }
+
+
+    .banner-4 h1 span{
+        font-size:30px !important;
+    }
+
+
+    .banner-4 p{
+        font-size:15px !important;
+    }
+
+
+    .legacy-section{
+        padding:50px 5%;
+    }
+
+
+    .legacy-intro,
+    .legacy-timeline{
+        min-width:100%;
+    }
+
+
+    .section-title{
+        font-size:2rem;
+    }
+
+
+    .section-description{
+        font-size:15px;
+    }
+
+
+    .stats-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+
+    .stat-item{
+        width:100%;
+    }
+
+
+
+    .purpose-section{
+        padding:50px 5%;
+        height:auto;
+    }
+
+
+    .purpose-content{
+        min-width:100%;
+    }
+
+
+    .purpose-title{
+        font-size:22px;
+    }
+
+
+    .vision-box{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+
+
+    .purpose-image{
+        min-width:100%;
+    }
+
+
+    .purpose-image img{
+        height:280px;
+    }
+
+
+
+    .about-container{
+        padding:40px 10px;
+    }
+
+
+    .values-section{
+        padding:40px 5%;
+    }
+
+
+    .values-title{
+        font-size:25px;
+    }
+
+
+    .value-card{
+        width:100%;
+    }
+
+
+    .value-card h3{
+        font-size:25px;
+    }
+
+
+
+    .leadership-section{
+        margin-top:40px;
+    }
+
+
+    .leadership-title{
+        font-size:1.7rem;
+    }
+
+
+    .team-grid{
+        grid-template-columns:1fr;
+    }
+
+
+    .member-card{
+        height:350px;
+    }
+
+
+    .member-name{
+        font-size:1.1rem;
+    }
+
+
+    .text-container2 h2{
+        font-size:25px;
+    }
+
+
+}
+
+
+/* Very Small Phones */
+@media(max-width:400px){
+
+    .banner-4 h1{
+        font-size:25px;
+    }
+
+
+    .purpose-title{
+        font-size:20px;
+    }
+
+
+    .member-card{
+        height:300px;
+    }
+
+
+    .section-title{
+        font-size:1.7rem;
+    }
+
+}
+

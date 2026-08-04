@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment | HealthCare Clinic</title>
+    <link rel="stylesheet" href="/style/appointment.css">
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <div id="header"></div>
+    
+<section class="appointment-banner">
+    <div class="overlay">
+        <h1>Book an Appointment</h1>
+        <p>Your health is our priority. Complete the form below.</p>
+    </div>
+</section>
+
+<section class="appointment-container">
+
+    <div class="appointment-info">
+        <h2>Why Choose Us?</h2>
+
+        <div class="card">
+            <h3>Qualified Doctors</h3>
+            <p>Our specialists provide quality healthcare using modern medical practices.</p>
+        </div>
+
+        <div class="card">
+            <h3>Working Hours</h3>
+            <p>Monday – Friday: 8:00 AM – 6:00 PM</p>
+            <p>Saturday: 8:00 AM – 2:00 PM</p>
+            <p>Sunday: Emergency Only</p>
+        </div>
+
+        <div class="card">
+            <h3>Emergency</h3>
+            <p> +237 680 000 000</p>
+            <p> info@healthcareclinic.com</p>
+        </div>
+    </div>
+
+    <div class="appointment-form">
+
+        <h2>Appointment Form</h2>
+
+        <form id="appointmentForm">
+
+            <input type="text" id="name" placeholder="Full Name" required>
+
+            <input type="email" id="email" placeholder="Email Address" required>
+
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+
+            <select id="gender" required>
+                <option value="">Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+
+            <input type="number" id="age" placeholder="Age" required>
+
+            <select id="department" required>
+                <option value="">Choose Department</option>
+                <option>General Consultation</option>
+                <option>Cardiology</option>
+                <option>Dental Care</option>
+                <option>Laboratory</option>
+                <option>Pediatrics</option>
+                <option>Pharmacy</option>
+            </select>
+
+            <select id="doctor">
+                <option value="">Preferred Doctor</option>
+                <option>Dr. John Smith</option>
+                <option>Dr. Sarah Johnson</option>
+                <option>Dr. Peter Williams</option>
+                <option>Dr. Emily Brown</option>
+                <option>Dr. Michael Davis</option>
+                <option>Dr. Grace  Wilson</option>
+            </select>
+
+            <input type="date" id="date" required>
+
+            <input type="time" id="time" required>
+
+            <select id="type">
+                <option>In-Person Consultation</option>
+                <option>Online Consultation</option>
+            </select>
+
+            <textarea id="message" rows="5" placeholder="Describe your symptoms"></textarea>
+
+            <button type="submit" style="width: 100%; 
+            justify-content: flex-end;text-align: center;">Book Appointment</button>
+
+        </form>
+
+    </div>
+
+</section>
+<footer>
+    <div id="footer"></div>
+</footer>
+
+    
+
+
+
+<script src="/script/appointment.js"></script>
+<script src="/script/header.js"></script>
+<script src="/script/layout.js"></script>
+
+</body>
+</html>

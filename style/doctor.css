@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.doctor-banner{
+    background:url("/images/doctors-banner.jpg") center/cover no-repeat;
+    height:50vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+.overlay{
+   background:linear-gradient(rgba(0,31,77,.75),rgba(0,31,77,.75)), url("images/banner.jpg");
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}
+
+.overlay h1{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.overlay p{
+    max-width:700px;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.doctors-section{
+    width:100%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:30px;
+    
+}
+
+.doctor-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.doctor-card:hover{
+    transform:translateY(-10px);
+}
+
+.doctor-card img{
+    width:100%;
+    height:340px;
+    object-fit:cover;
+}
+
+.doctor-card h2{
+    color:#002b5b;
+    margin-top:20px;
+}
+
+.doctor-card h4{
+    color:#0077cc;
+    margin:10px 0;
+}
+
+.doctor-card p{
+    color:#666;
+    line-height:1.7;
+    padding:0 20px;
+    margin-bottom:20px;
+}
+
+
+
+
+.doctor-card button{
+    margin-bottom:25px;
+    padding:12px 30px;
+    background:#0077cc;
+    color:#fff;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.doctor-card button:hover{
+    background:#005fa3;
+}
+
+/* RESPONSIVE DESIGNS*/
+
+/* Tablets */
+@media (max-width:992px){
+
+    .doctor-banner{
+        height:45vh;
+    }
+
+
+    .overlay h1{
+        font-size:40px;
+    }
+
+
+    .overlay p{
+        font-size:16px;
+        max-width:600px;
+    }
+
+
+    .doctors-section{
+        padding:0 30px;
+        grid-template-columns:repeat(2,1fr);
+        gap:25px;
+    }
+
+
+    .doctor-card img{
+        height:300px;
+    }
+
+}
+
+
+
+/* Mobile Phones */
+@media(max-width:600px){
+
+
+    .doctor-banner{
+        height:50vh;
+    }
+
+
+    .overlay{
+        padding:15px;
+    }
+
+
+    .overlay h1{
+        font-size:30px;
+    }
+
+
+    .overlay p{
+        font-size:15px;
+        line-height:1.5;
+    }
+
+
+    .doctors-section{
+        width:100%;
+        padding:0 20px;
+        grid-template-columns:1fr;
+        gap:25px;
+        margin-top:40px;
+    }
+
+
+    .doctor-card img{
+        height:280px;
+    }
+
+
+    .doctor-card h2{
+        font-size:22px;
+    }
+
+
+    .doctor-card p{
+        font-size:15px;
+    }
+
+
+    .doctor-card button{
+        width:80%;
+    }
+
+}
+
+
+
+/* Small Phones */
+@media(max-width:400px){
+
+
+    .overlay h1{
+        font-size:25px;
+    }
+
+
+    .overlay p{
+        font-size:14px;
+    }
+
+
+    .doctor-card img{
+        height:240px;
+    }
+
+
+    .doctor-card h2{
+        font-size:20px;
+    }
+
+}
