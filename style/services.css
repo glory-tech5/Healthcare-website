@@ -153,7 +153,9 @@ header{
     gap: 40px;
     padding: 60px 8%;
     color: white;
-    background-color: red;
+    background-color:#001f4d;
+    margin-top: 55px;
+    margin-bottom: 12px;
 }
 
 
@@ -163,10 +165,10 @@ header{
 
 .images img{
     width:100%;
-    max-width:380px;
+    max-width:280px;
     border-radius:25px;
     box-shadow:0 15px 35px rgba(0,0,0,.15);
-    height: auto;
+    height: 50%;
 }
 
 .text-content{
@@ -183,13 +185,13 @@ header{
 
 .text-content h2{
     font-size:50px;
-    color:#0b1c4d;
+    color:var(--text-color);
     margin:15px 0;
     font-weight: 50px;
 }
 
 .text-content p{
-    color:#666;
+    color:var(--text-color);
     line-height:1.8;
     margin-bottom:35px;
 }
