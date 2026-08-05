@@ -1,3 +1,9 @@
+:root{
+    --pramary-color:#001f4d;
+    --secondary-color: #007bff;
+    --text-color: #ffffff;
+
+}
 *{
     margin:0;
     padding:0;
@@ -140,14 +146,16 @@ header{
     font-size: 18px;
     padding-bottom: 3px;
 }
-.Note{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:70px;
-    padding:100px 8%;
-    background:#fff;
+.Note {
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 8%;
+    color: white;
+    background-color: red;
 }
+
 
 .images{
     flex:1;
@@ -163,6 +171,7 @@ header{
 
 .text-content{
     flex:1;
+    background: var(--primary-color);
 }
 
 .span-tag{
