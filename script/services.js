@@ -67,3 +67,14 @@ learnButtons.forEach(button => {
     });
 
 });
+
+const bookappointment = document.getElementById("bookappointment");
+const contactsupport = document.getElementById("contactsupport");
+
+bookappointment.addEventListener("click", function(){
+    window.location.href = "pages/appointment.html";
+});
+
+contactsupport.addEventListener("click", function(){
+    window.location.href = "pages/contact.html";
+});
