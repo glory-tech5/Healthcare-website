@@ -40,6 +40,24 @@ button.forEach(btn => {
         }
         })
     });
+
+    const features = document.querySelectorAll(".feature");
+
+features.forEach(feature => {
+
+    feature.addEventListener("click", function(){
+
+        
+        features.forEach(card => {
+            card.classList.remove("active");
+        });
+
+        
+        this.classList.add("active");
+
+    });
+
+});
     
 
 

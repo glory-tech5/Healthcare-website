@@ -194,6 +194,8 @@ header{
     gap:70px;
     padding:100px 8%;
     background:#fff;
+    background-color: var(--pramary-color);
+    margin-top: 50px;
 }
 
 .about-image{
@@ -214,21 +216,22 @@ header{
 
 .about-tag{
     color:#6c7cff;
-    font-size:17px;
+    font-size:27px;
     font-weight:bold;
     letter-spacing:2px;
 }
 
 .about-content h2{
-    font-size:22px;
-    color:#0b1c4d;
+    font-size:30px;
+    color:var(--text-color);
     margin:15px 0;
 }
 
 .about-content p{
-    color:#666;
+    color: var(--text-color);
     line-height:1.8;
     margin-bottom:35px;
+    font-size: 15px;
 }
 
 .about-features{
@@ -382,6 +385,15 @@ header{
     display:grid;
     grid-template-columns:repeat(4,1fr);
     gap:25px;
+}
+.feature:active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.feature:active h1,
+.feature:active p {
+    color: white;
 }
 
 
