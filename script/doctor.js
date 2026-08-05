@@ -6,3 +6,11 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+
+const appointmentButtons = document.querySelectorAll(".book-btn");
+
+appointmentButtons.forEach(button => {
+    button.addEventListener("click", function () {
+        window.location.href = "/pages/appointment.html";
+    });
+});
