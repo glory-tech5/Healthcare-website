@@ -78,3 +78,71 @@ bookappointment.addEventListener("click", function(){
 contactsupport.addEventListener("click", function(){
     window.location.href = "pages/contact.html";
 });
+
+const services = [
+    {
+        image: "/images/consultation.jpg",
+        title: "General Consultation",
+        description: "Professional medical consultation and diagnosis to help you maintain good health."
+    },
+
+    {
+        image: "/images/laboratory.jpg",
+        title: "Laboratory Services",
+        description: "Accurate medical tests and laboratory investigations using modern equipment."
+    },
+
+    {
+        image: "/images/pharmacy.jpg",
+        title: "Pharmacy",
+        description: "Access to quality medicines and professional guidance from our pharmacists."
+    },
+
+    {
+        image: "/images/emergency.jpg",
+        title: "Emergency Care",
+        description: "Quick and reliable medical attention for urgent health situations."
+    },
+
+    {
+        image: "/images/screening.jpg",
+        title: "Health Screening and Checkup",
+        description: "Regular health checks and screening services to detect health problems early."
+    },
+
+    {
+        image: "/images/dental.jpg",
+        title: "Dental Care",
+        description: "Maintaining healthy smiles with our comprehensive dental services."
+    },
+
+    {
+        image: "/images/black.jpg",
+        title: "Home Medical Services",
+        description: "Professional healthcare support delivered conveniently at your home."
+    },
+
+    {
+        image: "/images/nuitrition.jpg",
+        title: "Nutrition and Diabetes",
+        description: "Our nutrition and diabetes care help you maintain a healthy lifestyle."
+    }
+];
+
+const container = document.getElementById("serviceContainer");
+
+services.forEach(service => {
+
+    const card = document.createElement("div");
+    card.classList.add("service-card");
+
+    card.innerHTML = `
+        <img src="${service.image}" alt="${service.title}">
+        <h3>${service.title}</h3>
+        <p>${service.description}</p>
+        <button class="button">Learn More</button>
+    `;
+
+    container.appendChild(card);
+
+});

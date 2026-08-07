@@ -3,4 +3,4 @@ A responsive Healthcare clinic website that allow patients to view doctors, book
 Technology used
 Html,css javascript,git and github etc
 https://github.com/glory-tech5/Healthcare-website.git
-https://healthcare-websit.netlify.app/
+https://healthcare-websit.netlify
